@@ -1,0 +1,26 @@
+/*  1:   */ package io.netty.util.internal;
+/*  2:   */ 
+/*  3:   */ import java.nio.ByteBuffer;
+/*  4:   */ import java.security.cert.X509Certificate;
+/*  5:   */ 
+/*  6:   */ public final class EmptyArrays
+/*  7:   */ {
+/*  8:24 */   public static final byte[] EMPTY_BYTES = new byte[0];
+/*  9:25 */   public static final boolean[] EMPTY_BOOLEANS = new boolean[0];
+/* 10:26 */   public static final double[] EMPTY_DOUBLES = new double[0];
+/* 11:27 */   public static final float[] EMPTY_FLOATS = new float[0];
+/* 12:28 */   public static final int[] EMPTY_INTS = new int[0];
+/* 13:29 */   public static final short[] EMPTY_SHORTS = new short[0];
+/* 14:30 */   public static final long[] EMPTY_LONGS = new long[0];
+/* 15:31 */   public static final Object[] EMPTY_OBJECTS = new Object[0];
+/* 16:32 */   public static final String[] EMPTY_STRINGS = new String[0];
+/* 17:33 */   public static final StackTraceElement[] EMPTY_STACK_TRACE = new StackTraceElement[0];
+/* 18:34 */   public static final ByteBuffer[] EMPTY_BYTE_BUFFERS = new ByteBuffer[0];
+/* 19:35 */   public static final X509Certificate[] EMPTY_X509_CERTIFICATES = new X509Certificate[0];
+/* 20:   */ }
+
+
+/* Location:           C:\Users\User\Desktop\spam.jar
+ * Qualified Name:     io.netty.util.internal.EmptyArrays
+ * JD-Core Version:    0.7.0.1
+ */
